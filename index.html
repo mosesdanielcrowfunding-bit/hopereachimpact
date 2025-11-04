@@ -1,127 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HopeReach | Empowering Campaigns, Rebuilding Lives</title>
+  <meta name="description" content="Official HopeReach website — Empowering campaigns, rebuilding lives through strategic crowdfunding support and donor engagement.">
+  <link rel="icon" href="hopereach_logo.png" type="image/png" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f9fafb;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 15px 5%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 55px;
+      border-radius: 10px;
+    }
+    header nav a {
+      color: white;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 10%;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+    .hero button {
+      background-color: #ffcc00;
+      color: #222;
+      border: none;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .hero button:hover {
+      background-color: #ffb800;
+    }
+    section {
+      padding: 70px 10%;
+      text-align: center;
+    }
+    section h2 {
+      color: #004aad;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    section p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 1.05rem;
+      color: #444;
+    }
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .plan {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s ease;
+    }
+    .plan:hover {
+      transform: translateY(-5px);
+    }
+    .plan h3 {
+      color: #004aad;
+      margin-bottom: 10px;
+    }
+    .plan p {
+      color: #555;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+    .footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 30px 5%;
+    }
+    .footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="hopereach_logo.png" alt="HopeReach Logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#plans">Plans</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<!-- HOPE REACH PRICING SECTION -->
-<section id="pricing" style="background-color:#f9fafb; padding:60px 0; text-align:center;">
-  <h2 style="font-size:2rem; font-weight:700; color:#1a1a1a;">🌍 HopeReach Professional Plans</h2>
-  <p style="font-size:1.1rem; color:#444; margin-bottom:40px;">
-    Empowering campaigns with visibility, trust, and growth. Choose the plan that best fits your journey.
-  </p>
-
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px;">
-
-    <div style="background:white; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:30px; width:300px;">
-      <h3>Starter Reach</h3>
-      <p>Campaign review, trust-building optimization, and story improvement.</p>
-      <h4 style="color:#0078ff;">$150</h4>
-    </div>
-
-    <div style="background:white; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:30px; width:300px;">
-      <h3>Growth Boost</h3>
-      <p>Includes Starter + update writing + donor connection messaging.</p>
-      <h4 style="color:#0078ff;">$250</h4>
-    </div>
-
-    <div style="background:white; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:30px; width:300px;">
-      <h3>Visibility Pro</h3>
-      <p>Organic visibility strategy + community reach & post templates.</p>
-      <h4 style="color:#0078ff;">$350</h4>
-    </div>
-
-    <div style="background:white; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:30px; width:300px;">
-      <h3>Momentum Drive</h3>
-      <p>Everything above + story visuals + progress update management.</p>
-      <h4 style="color:#0078ff;">$480</h4>
-    </div>
-
-    <div style="background:white; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:30px; width:300px;">
-      <h3>Hope Impact</h3>
-      <p>Dedicated campaign manager + advanced analytics + content schedule.</p>
-      <h4 style="color:#0078ff;">$650</h4>
-    </div>
-
-    <div style="background:white; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1); padding:30px; width:300px;">
-      <h3>Premium Humanitarian Plan</h3>
-      <p>Full professional growth service — campaign strategy, donor engagement, and organic promotion.</p>
-      <h4 style="color:#0078ff;">$850</h4>
-    </div>
-
+  <div class="hero">
+    <h1>Empowering Campaigns, Rebuilding Lives</h1>
+    <p>We help individuals and communities raise funds successfully with strategic presentation, awareness growth, and donor connection.</p>
+    <button>Get Campaign Support</button>
   </div>
-</section>
-<!-- INTRODUCTION SECTION -->
-<section id="about" style="text-align:center; padding:60px 20px; background-color:#ffffff;">
-  <h1 style="font-size:2.5rem; color:#1a1a1a; font-weight:800;">Welcome to HopeReach 🌍</h1>
-  <p style="max-width:800px; margin:20px auto; font-size:1.1rem; color:#444;">
-    At <strong>HopeReach</strong>, we’re not just campaign specialists — we’re storytellers of compassion and growth.  
-    We help fundraisers, families, and dreamers build **trustworthy, emotionally-driven campaigns** that inspire real action.  
-    Our mission is simple: to help your story reach hearts and goals faster.  
-  </p>
-  <p style="max-width:800px; margin:10px auto; font-size:1rem; color:#555;">
-    From personalized strategy to full campaign optimization, we work hand in hand with you to turn support into success.  
-    Whether it’s rebuilding after loss, funding treatment, or bringing your dreams to life — HopeReach is your partner in impact.  
-  </p>
-  <a href="#pricing" style="display:inline-block; margin-top:25px; padding:12px 28px; background-color:#0078ff; color:white; border-radius:8px; text-decoration:none; font-weight:600;">
-    View Our Packages
-  </a>
-</section>
-<!-- TESTIMONIALS SECTION -->
-<section id="testimonials" style="background-color:#f8f9fb; padding:60px 20px; text-align:center;">
-  <h2 style="font-size:2.2rem; color:#1a1a1a; font-weight:700;">What Our Clients Say 💬</h2>
-  <p style="max-width:700px; margin:10px auto 40px; font-size:1rem; color:#555;">
-    We’ve helped countless campaigners reach their goals with strategy, emotion, and precision.  
-    Here’s what a few of our happy clients had to say:
-  </p>
 
-  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px; max-width:1000px; margin:auto;">
-    
-    <div style="background:#fff; padding:25px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-style:italic; color:#333;">“HopeReach transformed my medical fundraiser — their design, story guidance, and updates helped us raise 3x faster than expected.”</p>
-      <h4 style="margin-top:10px; color:#0078ff;">— Blessing O.</h4>
-      <p style="font-size:0.9rem; color:#666;">Cancer Treatment Campaign</p>
-    </div>
+  <section id="about">
+    <h2>About HopeReach</h2>
+    <p>HopeReach is a campaign-support initiative led by <strong>Moses Daniel</strong>, a crowdfunding specialist helping campaign owners gain visibility and real donor support. We optimize campaign storytelling, structure, and audience reach using tested awareness strategies.</p>
+    <p><em>Our logo symbolizes unity, light, and shared progress — a mark of hope and connection for campaigns around the world.</em></p>
+  </section>
 
-    <div style="background:#fff; padding:25px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-style:italic; color:#333;">“Their creativity and emotional appeal brought life to our community rebuilding campaign. We hit full target in 2 weeks.”</p>
-      <h4 style="margin-top:10px; color:#0078ff;">— Chukwuemeka T.</h4>
-      <p style="font-size:0.9rem; color:#666;">Disaster Relief Campaign</p>
+  <section id="plans">
+    <h2>Our Marketing Plans</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Starter Boost</h3>
+        <p>Story & presentation review with feedback and optimization guide. Visibility testing begins within 2–3 weeks.</p>
+        <p><strong>$50</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Growth Reach</h3>
+        <p>Organic and sponsored awareness to increase donor engagement. Results visible within 2–3 weeks.</p>
+        <p><strong>$120</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Premium Launch</h3>
+        <p>Full campaign optimization, sponsored reach, and media promotion. Complete visibility and donor impact within 2–3 weeks.</p>
+        <p><strong>$250</strong></p>
+      </div>
     </div>
+  </section>
 
-    <div style="background:#fff; padding:25px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-style:italic; color:#333;">“Professional, fast, and caring team. HopeReach gave my education campaign credibility that attracted real donors.”</p>
-      <h4 style="margin-top:10px; color:#0078ff;">— Anita D.</h4>
-      <p style="font-size:0.9rem; color:#666;">Education Support Campaign</p>
-    </div>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to grow your campaign? Reach out today.</p>
+    <p>Email: <a href="mailto:moses.daniel.crowfunding@gmail.com">moses.daniel.crowfunding@gmail.com</a></p>
+    <p>Website: <a href="https://hopereachonline.github.io">hopereachonline.github.io</a></p>
+    <p>Follow us: Instagram | Facebook | Twitter (X)</p>
+  </section>
 
-    <div style="background:#fff; padding:25px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-style:italic; color:#333;">“They made my vision come alive. The team is kind, patient, and dedicated to success — I highly recommend HopeReach.”</p>
-      <h4 style="margin-top:10px; color:#0078ff;">— John P.</h4>
-      <p style="font-size:0.9rem; color:#666;">Business Launch Campaign</p>
-    </div>
+  <div class="footer">
+    <p>© 2025 HopeReach. All rights reserved.</p>
   </div>
-</section>
-<!-- CONTACT & HIRE US SECTION -->
-<section id="contact" style="background-color:#0d1b2a; color:#fff; padding:80px 20px; text-align:center;">
-  <h2 style="font-size:2.4rem; font-weight:700; margin-bottom:15px;">Work With HopeReach 💼</h2>
-  <p style="max-width:700px; margin:0 auto 40px; font-size:1rem; color:#d1d1d1;">
-    Ready to launch your campaign or rebuild your story with impact?  
-    Let’s create something powerful together — our experts respond within 24 hours.
-  </p>
-
-  <form action="mailto:moses.daniel.crowfunding@gmail.com" method="post" enctype="text/plain" style="max-width:600px; margin:auto; text-align:left; background:#1b263b; padding:40px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
-    
-    <label style="display:block; margin-bottom:10px; font-weight:600;">Full Name</label>
-    <input type="text" name="Name" required style="width:100%; padding:12px; border:none; border-radius:8px; margin-bottom:20px; background:#e0e1dd; color:#000;">
-    
-    <label style="display:block; margin-bottom:10px; font-weight:600;">Email Address</label>
-    <input type="email" name="Email" required style="width:100%; padding:12px; border:none; border-radius:8px; margin-bottom:20px; background:#e0e1dd; color:#000;">
-    
-    <label style="display:block; margin-bottom:10px; font-weight:600;">Message</label>
-    <textarea name="Message" rows="5" required style="width:100%; padding:12px; border:none; border-radius:8px; margin-bottom:25px; background:#e0e1dd; color:#000;"></textarea>
-
-    <button type="submit" style="width:100%; background:#0078ff; color:#fff; padding:14px; border:none; border-radius:10px; font-size:1rem; font-weight:600; cursor:pointer;">
-      Send Message ✉️
-    </button>
-  </form>
-
-  <p style="margin-top:30px; font-size:0.95rem; color:#ccc;">
-    Or reach us directly at: <b>moses.daniel.crowfunding@gmail.com</b>
-  </p>
-</section>
+</body>
+</html>
