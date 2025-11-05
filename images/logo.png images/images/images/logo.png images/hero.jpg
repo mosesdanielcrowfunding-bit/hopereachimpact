@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HopeReach – Empowering Campaigns, Rebuilding Lives</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      color: #007b7f;
+      font-size: 1.5rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #007b7f;
+      font-weight: 500;
+    }
+
+    .cta {
+      background-color: #00a5a7;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .cta:hover {
+      background-color: #007b7f;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      background: linear-gradient(to right, rgba(0,123,127,0.8), rgba(255,255,255,0.1)), url('hero.jpg') center/cover no-repeat;
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 550px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background-color: #ffffff;
+      color: #007b7f;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .hero a:hover {
+      background-color: #007b7f;
+      color: white;
+    }
+
+    .testimonials {
+      background-color: #f0fdfd;
+      padding: 60px;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      color: #007b7f;
+      margin-bottom: 40px;
+    }
+
+    .footer {
+      background-color: #003c3d;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        padding: 60px 30px;
+        text-align: center;
+      }
+
+      .hero-content {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌿 HopeReach</div>
+    <nav class="nav-links">
+      <a href="#">Coopattisk</a>
+      <a href="#">Hopewunding</a>
+      <a href="#">Freand Jours</a>
+      <a href="#">About</a>
+    </nav>
+    <a href="#" class="cta">Shop Now</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Empowering Campaigns.<br>Rebuilding Lives.</h1>
+      <p>HopeReach connects campaigns, communities, and change-makers. Together, we bring hope and rebuild lives with purpose.</p>
+      <a href="#">Get Started</a>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What People Are Saying</h2>
+    <p>“HopeReach helped us raise funds and rebuild faster than we ever imagined.”</p>
+    <p>“A community that truly cares and connects people to change.”</p>
+  </section>
+
+  <footer class="footer">
+    © 2025 HopeReach. All Rights Reserved.
+  </footer>
+</body>
+</html>
