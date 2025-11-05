@@ -1,177 +1,76 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HopeReach | Empowering Campaigns, Rebuilding Lives</title>
-  <meta name="description" content="Official HopeReach website — Empowering campaigns, rebuilding lives through strategic crowdfunding support and donor engagement.">
-  <link rel="icon" href="hopereach_logo.png" type="image/png" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body {
-      background-color: #f9fafb;
-      color: #222;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #004aad;
-      color: white;
-      padding: 15px 5%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    header img {
-      height: 55px;
-      border-radius: 10px;
-    }
-    header nav a {
-      color: white;
-      margin-left: 25px;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    header nav a:hover {
-      text-decoration: underline;
-    }
-    .hero {
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
-      color: white;
-      text-align: center;
-      padding: 120px 10%;
-    }
-    .hero h1 {
-      font-size: 2.8rem;
-      margin-bottom: 15px;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 25px;
-    }
-    .hero button {
-      background-color: #ffcc00;
-      color: #222;
-      border: none;
-      padding: 12px 30px;
-      font-size: 1.1rem;
-      border-radius: 25px;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-    .hero button:hover {
-      background-color: #ffb800;
-    }
-    section {
-      padding: 70px 10%;
-      text-align: center;
-    }
-    section h2 {
-      color: #004aad;
-      font-size: 2rem;
-      margin-bottom: 15px;
-    }
-    section p {
-      max-width: 800px;
-      margin: 0 auto 30px;
-      font-size: 1.05rem;
-      color: #444;
-    }
-    .plans {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .plan {
-      background: white;
-      border-radius: 15px;
-      padding: 25px;
-      width: 300px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: 0.3s ease;
-    }
-    .plan:hover {
-      transform: translateY(-5px);
-    }
-    .plan h3 {
-      color: #004aad;
-      margin-bottom: 10px;
-    }
-    .plan p {
-      color: #555;
-      font-size: 0.95rem;
-      margin-bottom: 15px;
-    }
-    .footer {
-      background-color: #004aad;
-      color: white;
-      text-align: center;
-      padding: 30px 5%;
-    }
-    .footer a {
-      color: #ffcc00;
-      text-decoration: none;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HopeReach — Empowering Campaigns, Rebuilding Lives</title>
+  <meta name="description" content="HopeReach helps crowdfunding campaigns grow with visibility, storytelling and donor engagement." />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <img src="hopereach_logo.png" alt="HopeReach Logo">
-    <nav>
-      <a href="#about">About</a>
-      <a href="#plans">Plans</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="HopeReach logo" class="logo" />
+        <span class="brand-title">HopeReach</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="pricing.html">Plans</a>
+        <a href="testimonials.html">Proof</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <div class="hero">
-    <h1>Empowering Campaigns, Rebuilding Lives</h1>
-    <p>We help individuals and communities raise funds successfully with strategic presentation, awareness growth, and donor connection.</p>
-    <button>Get Campaign Support</button>
-  </div>
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Empowering campaigns. Rebuilding lives.</h1>
+        <p>We help crowdfunding campaigns grow with clear storytelling, verified trust signals, and targeted visibility strategies.</p>
+        <a class="btn-primary" href="contact.html">Get Campaign Support</a>
+      </div>
+    </section>
 
-  <section id="about">
-    <h2>About HopeReach</h2>
-    <p>HopeReach is a campaign-support initiative led by <strong>Moses Daniel</strong>, a crowdfunding specialist helping campaign owners gain visibility and real donor support. We optimize campaign storytelling, structure, and audience reach using tested awareness strategies.</p>
-    <p><em>Our logo symbolizes unity, light, and shared progress — a mark of hope and connection for campaigns around the world.</em></p>
-  </section>
+    <section id="about-preview" class="section-light">
+      <div class="container">
+        <h2>About HopeReach</h2>
+        <p>HopeReach is led by Moses Daniel — a crowdfunding growth specialist focused on ethical, transparent campaign growth. We never touch funds; we help your story reach real donors.</p>
+      </div>
+    </section>
 
-  <section id="plans">
-    <h2>Our Marketing Plans</h2>
-    <div class="plans">
-      <div class="plan">
-        <h3>Starter Boost</h3>
-        <p>Story & presentation review with feedback and optimization guide. Visibility testing begins within 2–3 weeks.</p>
-        <p><strong>$50</strong></p>
+    <section id="services-preview" class="container">
+      <h2>How we help</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Campaign Review</h3>
+          <p>We audit your page (story, visuals, CTA) and deliver a short, actionable improvement plan.</p>
+        </div>
+        <div class="card">
+          <h3>Visibility Strategy</h3>
+          <p>Organic and ethical promotion across targeted communities and networks to reach real donors.</p>
+        </div>
+        <div class="card">
+          <h3>Donor Trust</h3>
+          <p>Verification tips, update templates and engagement routines that build confidence and recurring support.</p>
+        </div>
       </div>
-      <div class="plan">
-        <h3>Growth Reach</h3>
-        <p>Organic and sponsored awareness to increase donor engagement. Results visible within 2–3 weeks.</p>
-        <p><strong>$120</strong></p>
-      </div>
-      <div class="plan">
-        <h3>Premium Launch</h3>
-        <p>Full campaign optimization, sponsored reach, and media promotion. Complete visibility and donor impact within 2–3 weeks.</p>
-        <p><strong>$250</strong></p>
-      </div>
+    </section>
+
+    <section class="section-light container">
+      <h2>Ready to start?</h2>
+      <p>Pick a plan on our Plans page, or request a free review to see quick improvements you can apply today.</p>
+      <a class="btn-secondary" href="pricing.html">View Plans</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 HopeReach</div>
+      <div>Contact: <a href="mailto:moses.daniel.crowfunding@gmail.com">moses.daniel.crowfunding@gmail.com</a></div>
     </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Ready to grow your campaign? Reach out today.</p>
-    <p>Email: <a href="mailto:moses.daniel.crowfunding@gmail.com">moses.daniel.crowfunding@gmail.com</a></p>
-    <p>Website: <a href="https://hopereachonline.github.io">hopereachonline.github.io</a></p>
-    <p>Follow us: Instagram | Facebook | Twitter (X)</p>
-  </section>
-
-  <div class="footer">
-    <p>© 2025 HopeReach. All rights reserved.</p>
-  </div>
+  </footer>
 </body>
 </html>
